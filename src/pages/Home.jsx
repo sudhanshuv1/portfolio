@@ -11,6 +11,8 @@ import Plane from '../models/Plane';
             POPUP
 </div> */}
 const Home = () => {
+
+  const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState (false);
 
   const adjustIslandForScreenSize = () => {
@@ -27,7 +29,7 @@ const Home = () => {
     return [screenScale, screenPosition, rotation]
   }
 
-  const adjustIslandForScreenSize = () => {
+  const adjustPlaneForScreenSize = () => {
     let screenScale, screenPosition;
     if (window.innerWidth < 768) {
       screenScale = [1.5, 1.5, 1.5];
@@ -37,7 +39,7 @@ const Home = () => {
       screenPosition = [0, -4, -4];
     }
 
-    return [screenScale, screenPosition, rotation]
+    return [screenScale, screenPosition]
   }
 
   const [islandScale, islandPosition, islandRotation] = adjustIslandForScreenSize ();
@@ -58,7 +60,7 @@ const Home = () => {
                 <hemisphereLight skyColor = "#b1e1ff" groundColor="#000000" intensity={1}/>
                 
                 <Bird />
-                <Sky />
+                <Sky isRotating={isRotating}/>
                 
                 <Island 
                   position={islandPosition}
@@ -66,6 +68,7 @@ const Home = () => {
                   rotation={islandRotation}
                   isRotating={isRotating}
                   setIsRotating={setIsRotating}
+                  setCurrentStage={setCurrentStage}
                 />
                 <Plane 
                   isRotating={isRotating}
