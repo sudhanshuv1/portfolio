@@ -160,14 +160,14 @@ export const projects = [
     {
         iconUrl: alarmclock,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
+        name: '',
         description: ',
         link: '',
     },
     {
         iconUrl: communityhealthcare,
         theme: 'btn-back-green',
-        name: ',
+        name: '',
         description: '.',
         link: '',
     },
