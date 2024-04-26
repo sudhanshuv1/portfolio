@@ -4,7 +4,7 @@ import { useAnimations, useGLTF } from '@react-three/drei'
 
 const Plane = ({ isRotating, ...props }) => {
 
-  const ref = useRef ();
+  const ref = useRef();
   const { scene, animations} = useGLTF (planeScene);
   const { actions } = useAnimations (animations, ref);
 
