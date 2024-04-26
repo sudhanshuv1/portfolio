@@ -9,6 +9,8 @@ import Bird from '../models/Bird';
 import Plane from '../models/Plane';
 
 import sakura from '../assets/sakura.mp3';
+import { soundoff, soundon } from '../assets/icons';
+
 
 
 const Home = () => {
@@ -97,6 +99,7 @@ const Home = () => {
 
             </Suspense>
         </Canvas>
+
         <div className='absolute bottom-2 left-2'>
           <img 
             src={!isPlayingMusic ? soundoff : soundon} 
