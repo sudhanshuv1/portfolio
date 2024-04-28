@@ -6,7 +6,7 @@ const About = ({skills, education}) => {
   return (
     <section className='max-container'>
       <h1 className="head-text">
-        Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Sudhanshu</span>
+        Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Sudhanshu Tiwari</span>
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>A web developer specializing in building applications.</p>
