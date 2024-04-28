@@ -22,22 +22,22 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text = "Worked with many companies and picked up many skills along the way."
+      text = "Graduated with a Masters degree in Computer Science."
       link = "/about"
       btnText = "Learn more"
     />
   ),
   3: (
     <InfoBox
-      text = "Worked with many companies and picked up many skills along the way."
-      link = "/about"
+      text = "Picked up many skills by building several projects"
+      link = "/projects"
       btnText = "Learn more"
     />
   ),
   4: (
     <InfoBox
-      text = "Worked with many companies and picked up many skills along the way."
-      link = "/about"
+      text = "Need a project done or looking for a dev? I'm just a few keystrokes away"
+      link = "/contact"
       btnText = "Learn more"
     />
   ),

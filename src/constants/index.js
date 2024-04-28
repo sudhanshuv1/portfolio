@@ -109,31 +109,27 @@ export const skills = [
     }
 ];
 
-export const experiences = [
+export const education = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        degree: "Master of Computer Applications",
+        school: "Harcourt Butler Technical University",
         icon: starbucks,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "August 2023 - August 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Completed my master's degree in Computer Science",
+            "Gained strong foundational knowledge in various aspects of Computer Science",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        degree: "Bachelor of Science",
+        school: "Kumaun University",
+        icon: starbucks,
+        iconBg: "#accbe1",
+        date: "August 2018 - August 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Completed my bachelor's degree in Science with Mathematics, Physics, and Chemistry",
+            "Achieved an overall percentage of 67.37%",
         ],
     },
 ];
@@ -158,17 +154,17 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: alarmclock,
+        iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: '',
-        description: ',
-        link: '',
+        name: 'React Alarm Clock',
+        description: 'Implementation of an alarm clock using React.js',
+        link: 'https://reactjs-alarm-clock.netlify.app',
     },
     {
-        iconUrl: communityhealthcare,
+        iconUrl: estate,
         theme: 'btn-back-green',
-        name: '',
-        description: '.',
-        link: '',
+        name: 'Community Healthcare',
+        description: 'Landing page for a community healthcare service',
+        link: 'https://community-healthcare.netlify.app/',
     },
 ];
