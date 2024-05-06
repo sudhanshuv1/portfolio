@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import { Home, About, Projects, Contact } from './pages'
+import { Home, About, Projects, Contact, Blog } from './pages'
 import Navbar from './components/Navbar'
 import { skills, education, projects } from './constants'
 
@@ -18,6 +18,7 @@ const App = () => {
                 <Route path="/projects" element={ <Projects 
                   projects = {projects}
                 />} />
+                <Route path="/blog" element={ <Blog />} />
                 <Route path="/contact" element={ <Contact />} />
             </Routes>
         </Router>
