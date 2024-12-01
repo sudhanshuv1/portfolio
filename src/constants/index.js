@@ -23,7 +23,11 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    alarmClock,
+    communityHealthcare,
+    technotes,
+    zoomClone
 } from "../assets/icons";
 
 export const skills = [
@@ -154,17 +158,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: alarmClock,
         theme: 'btn-back-red',
         name: 'React Alarm Clock',
-        description: 'Implementation of an alarm clock using React.js',
+        description: 'An alarm clock app using React.js',
         link: 'https://reactjs-alarm-clock.netlify.app',
     },
     {
-        iconUrl: estate,
+        iconUrl: communityHealthcare,
         theme: 'btn-back-green',
         name: 'Community Healthcare',
         description: 'Landing page for a community healthcare service',
         link: 'https://community-healthcare.netlify.app/',
+    },
+    {
+        iconUrl: technotes,
+        theme: 'btn-back-blue',
+        name: 'Technotes',
+        description: 'A task management MERN app for organizing notes',
+        link: 'https://technotes-frontend-5ffq.onrender.com',
+    },
+    {
+        iconUrl: zoomClone,
+        theme: 'btn-back-yellow',
+        name: 'ROOM - The Video Conferencing App',
+        description: 'A video conferencng app using Next.js and Stream API',
+        link: 'https://zoom-clone-stream.vercel.app',
     },
 ];

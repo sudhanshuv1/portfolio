@@ -26,6 +26,10 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import alarmClock from './alarmClock.svg'
+import communityHealthcare from './communityHealthcare.svg'
+import technotes from './technotes.svg'
+import zoomClone from './zoomClone.svg'
 
 export {
     css,
@@ -55,5 +59,9 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    alarmClock,
+    communityHealthcare,
+    technotes,
+    zoomClone
 }
