@@ -2,7 +2,6 @@ import { useState, Suspense, useEffect, useRef } from 'react'
 import { Canvas } from '@react-three/fiber'
 import Loader from '../components/Loader'
 import HomeInfo from '../components/HomeInfo';
-
 import Island from '../models/Island';
 import Sky from '../models/Sky';
 import Bird from '../models/Bird';
@@ -67,9 +66,9 @@ const Home = () => {
     <section className="w-full h-screen relative">
       <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
           {currentStage && <HomeInfo currentStage={currentStage} />}
-      </div> 
+      </div>
         <Canvas 
-            className= { `"w-full h-screen bg-transparent" ${isRotating ? 'cursor-grabbing' : 'cursor-grab'}`}
+            className= { `"w-full h-screen bg-transparent z-5" ${isRotating ? 'cursor-grabbing' : 'cursor-grab'}`}
             camera={{ near: 0.1, far: 1000 }}
         >
             <Suspense fallback = {<Loader/>}>

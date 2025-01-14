@@ -6,7 +6,7 @@ import { skills, education, projects } from './constants'
 
 const App = () => {
   return (
-    <main className = "bg-slate-300/20 h-full">
+    <main className = "bg-slate-300/20 h-full relative">
         <Router>
             <Navbar />
             <Routes>
