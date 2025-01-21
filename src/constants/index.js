@@ -27,6 +27,7 @@ import {
     alarmClock,
     communityHealthcare,
     technotes,
+    summaryGenerator,
     zoomClone
 } from "../assets/icons";
 
@@ -158,6 +159,27 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: summaryGenerator,
+        theme: 'btn-back-orange',
+        name: 'Summary Generator',
+        description: 'A Next.js app that takes any document (PDF/Image) and generates smart summaries.',
+        link: 'https://summary-generator-beryl.vercel.app',
+    },
+    {
+        iconUrl: zoomClone,
+        theme: 'btn-back-yellow',
+        name: 'ROOM - The Video Conferencing App',
+        description: 'A video conferencng app using Next.js and Stream API',
+        link: 'https://zoom-clone-stream.vercel.app',
+    },
+    {
+        iconUrl: technotes,
+        theme: 'btn-back-blue',
+        name: 'Technotes',
+        description: 'A task management MERN app for organizing notes',
+        link: 'https://technotes-frontend-5ffq.onrender.com',
+    },
+    {
         iconUrl: alarmClock,
         theme: 'btn-back-red',
         name: 'React Alarm Clock',
@@ -170,19 +192,5 @@ export const projects = [
         name: 'Community Healthcare',
         description: 'Landing page for a community healthcare service',
         link: 'https://community-healthcare.netlify.app/',
-    },
-    {
-        iconUrl: technotes,
-        theme: 'btn-back-blue',
-        name: 'Technotes',
-        description: 'A task management MERN app for organizing notes',
-        link: 'https://technotes-frontend-5ffq.onrender.com',
-    },
-    {
-        iconUrl: zoomClone,
-        theme: 'btn-back-yellow',
-        name: 'ROOM - The Video Conferencing App',
-        description: 'A video conferencng app using Next.js and Stream API',
-        link: 'https://zoom-clone-stream.vercel.app',
     },
 ];

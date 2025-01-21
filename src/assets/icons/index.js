@@ -30,6 +30,7 @@ import alarmClock from './alarmClock.svg'
 import communityHealthcare from './communityHealthcare.svg'
 import technotes from './technotes.svg'
 import zoomClone from './zoomClone.svg'
+import summaryGenerator from './summaryGenerator.svg'
 
 export {
     css,
@@ -63,5 +64,6 @@ export {
     alarmClock,
     communityHealthcare,
     technotes,
-    zoomClone
+    zoomClone,
+    summaryGenerator,
 }
