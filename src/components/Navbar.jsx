@@ -27,7 +27,7 @@ const Navbar = () => {
                 <NavLink to="/projects" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'}>
                     Projects
                 </NavLink>
-                <NavLink to="https://drive.google.com/file/d/1qxW5AzAV2rJ-4Hx9YCCOt8i_pLUnCiE_/view?usp=drive_link" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'}>
+                <NavLink to="https://drive.google.com/file/d/1xT_ubaBiSzJ-50V4XnO2NBvgg5Y9aY0I/view?usp=sharing" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'}>
                     Resume
                 </NavLink>
                 <NavLink to="https://sudhanshut.blogspot.com/" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black'}>
