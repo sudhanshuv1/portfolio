@@ -122,8 +122,8 @@ export const education = [
         iconBg: "#accbe1",
         date: "August 2023 - August 2025",
         points: [
-            "Completed my master's degree in Computer Science",
-            "Gained strong foundational knowledge in various aspects of Computer Science",
+            "Completed my master's degree in Computer Applications",
+            "Took many courses of Computer Applications as part of the curriculum",
         ],
     },
     {

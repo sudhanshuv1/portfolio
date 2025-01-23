@@ -22,7 +22,7 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text = "Graduated with a Masters degree in Computer Science."
+      text = "Graduated with a Masters degree in Computer Applications."
       link = "/about"
       btnText = "Learn more"
     />
