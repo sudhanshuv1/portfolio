@@ -1,8 +1,9 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { education, skills } from '../constants';
 import 'react-vertical-timeline-component/style.min.css';
 
-const About = ({skills, education}) => {
+const About = () => {
   return (
     <section className='max-container'>
       <h1 className="head-text">
