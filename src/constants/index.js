@@ -184,7 +184,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'React Alarm Clock',
         description: 'An alarm clock app using React.js',
-        link: 'https://reactjs-alarm-clock.netlify.app',
+        link: 'https://alarmclock-app.netlify.app',
     },
     {
         iconUrl: communityHealthcare,
