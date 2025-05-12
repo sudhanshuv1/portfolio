@@ -26,7 +26,7 @@ import {
     typescript,
     alarmClock,
     communityHealthcare,
-    technotes,
+    invdues,
     summaryGenerator,
     zoomClone
 } from "../assets/icons";
@@ -166,18 +166,11 @@ export const projects = [
         link: 'https://summary-generator-beryl.vercel.app',
     },
     {
-        iconUrl: zoomClone,
-        theme: 'btn-back-yellow',
-        name: 'ROOM - The Video Conferencing App',
-        description: 'A video conferencng app using Next.js and Stream API',
-        link: 'https://zoom-clone-stream.vercel.app',
-    },
-    {
-        iconUrl: technotes,
+        iconUrl: invdues,
         theme: 'btn-back-blue',
-        name: 'Technotes',
-        description: 'A task management MERN app for organizing notes',
-        link: 'https://technotes-frontend-5ffq.onrender.com',
+        name: 'InvDues Reminder',
+        description: 'An invoice reminder and follow-up app that uses Zapier integration to automate workflows.',
+        link: 'https://invdues-reminder.vercel.app/',
     },
     {
         iconUrl: alarmClock,
@@ -185,6 +178,13 @@ export const projects = [
         name: 'React Alarm Clock',
         description: 'An alarm clock app using React.js',
         link: 'https://alarmclock-app.netlify.app',
+    },
+    {
+        iconUrl: zoomClone,
+        theme: 'btn-back-yellow',
+        name: 'ROOM - The Video Conferencing App',
+        description: 'A video conferencng app using Next.js and Stream API',
+        link: 'https://zoom-clone-stream.vercel.app',
     },
     {
         iconUrl: communityHealthcare,
