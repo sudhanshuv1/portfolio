@@ -28,10 +28,8 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import alarmClock from './alarmClock.svg'
 import communityHealthcare from './communityHealthcare.svg'
-import technotes from './technotes.svg'
 import zoomClone from './zoomClone.svg'
 import summaryGenerator from './summaryGenerator.svg'
-
 export {
     css,
     express,
@@ -63,7 +61,6 @@ export {
     soundoff,
     alarmClock,
     communityHealthcare,
-    technotes,
     zoomClone,
     summaryGenerator,
 }

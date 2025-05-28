@@ -166,7 +166,7 @@ export const projects = [
         link: 'https://summary-generator-beryl.vercel.app',
     },
     {
-        iconUrl: invdues,
+        iconUrl: snapgram,
         theme: 'btn-back-blue',
         name: 'InvDues Reminder',
         description: 'An invoice reminder and follow-up app that uses Zapier integration to automate workflows.',
